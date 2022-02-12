@@ -15,8 +15,8 @@ public Set<Person> getPersons() {
    return this.persons;
 }
 
-public void setPersons(Set<Person> personss) {
-   this.persons = personss;
+public void setPersons(Set<Person> persons) {
+   this.persons = persons;
 }
 
 private Set<Registration> registrations;
@@ -26,8 +26,8 @@ public Set<Registration> getRegistrations() {
    return this.registrations;
 }
 
-public void setRegistrations(Set<Registration> registrationss) {
-   this.registrations = registrationss;
+public void setRegistrations(Set<Registration> registrations) {
+   this.registrations = registrations;
 }
 
 private Set<Event> events;
@@ -37,8 +37,8 @@ public Set<Event> getEvents() {
    return this.events;
 }
 
-public void setEvents(Set<Event> eventss) {
-   this.events = eventss;
+public void setEvents(Set<Event> events) {
+   this.events = events;
 }
 
 private int id;
