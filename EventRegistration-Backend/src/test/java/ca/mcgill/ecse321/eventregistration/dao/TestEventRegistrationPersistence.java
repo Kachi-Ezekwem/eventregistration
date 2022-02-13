@@ -33,6 +33,7 @@ public class TestEventRegistrationPersistence {
 
 	@AfterEach
 	public void clearDatabase() {
+		//ADD RUN CONFIGURATIONS FOR THIS CLASS
 		// Fisrt, we clear registrations to avoid exceptions due to inconsistencies
 		registrationRepository.deleteAll();
 		// Then we can clear the other tables
@@ -48,7 +49,7 @@ public class TestEventRegistrationPersistence {
 		// First example for attribute save/load
 		person.setName(name);
 		personRepository.save(person);
-
+		
 		person = null;
 
 		person = personRepository.findPersonByName(name);
